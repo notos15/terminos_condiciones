@@ -1,10 +1,16 @@
 {
-    "cuadrotx":[
-        "Nombre","Correo"
+    "cuadrotx": [
+        {
+            "id":"Correo",
+            "gris":"escriba su correo"
+        }
     ],
-    "tes":[
-        { "id": "¿Donacion anonima?", "title": ["si","no"] }
-        
+    "tes": [
+        {
+            "id": "anonimo",
+            "pregunta": "¿Desea que su donación sea anónima?",
+            "opciones": ["Si", "No"],
+            "tipo": "radio"
+        }
     ]
-
 }
